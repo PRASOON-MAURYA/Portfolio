@@ -6,10 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet'>
     <link rel="stylesheet" href="styles.css">
-    
+
 </head>
 
 <body>
@@ -17,136 +21,241 @@
         <abbr title="Prasoon Maurya">
             <h1>Portfolio</h1>
         </abbr>
-        <nav>
-            <ul>
-                <li><a href="#" class="remove">Home</a></li>
-                <li><a href="#about" class="remove">About</a></li>
-                <li><a href="#" class="remove">Resume</a></li>
-                <li><a href="#contact" class="remove">Contact</a></li>
-                <li>
-                    <input type="text" placeholder="Search.." name="searchbox" id="sbox">
-                </li>
-                <li> <i class="fa fa-search" id="sicon"></i>
-                </li>
-            </ul>
-        </nav>
+        <div id="profile">
+        </div>
     </header>
-    <!-- <div class="line"></div> -->
+
     <hr>
     <div id="sub-menu">
         <ul>
             <li><a href="#">home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#projects">Resume</a></li>
             <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
 
         </ul>
     </div>
     <div id="progress-bar"></div>
     <main>
-        <section id="about">
-
+        <section id="home">
+            <div id="name-box">
+                <div>Hello! I am <span class="dark-green">Prasoon Maurya</span></div>
+                <br>
+                I am a passionate
+                <span id="element" class="dark-green"> </span>
+            </div>
+            <div id="developer-box"></div>
         </section>
-        <section style="background: #1ecff2; line-height: 2;">
-            <p>Product Sans is mainly used in the text of Google's numerous services' logotypes such as Maps, Drive,
-                News, Earth, etc. The font is also used on the Google Store, and in some versions of Android.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus placeat voluptate cupiditate
-                incidunt illum aliquam maiores quo ipsum illo corporis id ipsam possimus hic laboriosam pariatur rerum
-                blanditiis fugiat repellat veritatis, debitis iusto, in accusamus. Voluptatum dolorem, vero architecto
-                am m iusto ex. Blanditiis quaerat aliquam eius dolores non nam magni placeat earum
-                vitae nobis qui veritatis, laudantium debitis error consequatur voluptate! Quaerat eum ratione maiores
-                accusantium ex dolores at. Impedit inventore corporis dolor repudiandae possimus ex voluptas officiis
-                porro. Iste repudiandae asperi umquam consequatur repellat quos nobis dolorum asperiores ea voluptate
-                cum soluta, atque, dicta esse eaque ducimus facilis assumenda illo!</p>
-        </section>
-        <section id="projects">
-            <div class="card">
-                <div class="card-img"></div>
-                <h3 class="card-title">Project Topic</h3>
-                <p class="card-description">Lorem ipsum, dolor sit amet consectetur adipis iste amet, aspernatur ipsum
-                    ipsa consequatur aliquid?</p>
-            </div>
-            <div class="card">
-                <div class="card-img"></div>
-                <h3 class="card-title">Project Topic</h3>
-                <p class="card-description">Lorem ipsum, dolor sit amet consectetur adipis iste amet, aspernatur ipsum
-                    ipsa consequatur aliquid?</p>
-            </div>
-            <div class="card">
-                <div class="card-img"></div>
-                <h3 class="card-title">Project Topic</h3>
-                <p class="card-description">Lorem ipsum, dolor sit amet consectetur adipis iste amet, aspernatur ipsum
-                    ipsa consequatur aliquid?</p>
-            </div>
-            <div class="card">
-                <div class="card-img"></div>
-                <h3 class="card-title">Project Topic</h3>
-                <p class="card-description">Lorem ipsum, dolor sit amet consectetur adipis iste amet, aspernatur ipsum
-                    ipsa consequatur aliquid?</p>
-            </div>
-            <div class="card">
-                <div class="card-img"></div>
-                <h3 class="card-title">Project Topic</h3>
-                <p class="card-description">Lorem ipsum, dolor sit amet consectetur adipis iste amet, aspernatur ipsum
-                    ipsa consequatur aliquid?</p>
-            </div>
-            <div class="card">
-                <div class="card-img"></div>
-                <h3 class="card-title">Project Topic</h3>
-                <p class="card-description">Lorem ipsut, aspernatur ipsum ipsa consequatur aliquid?</p>
-            </div>
-            <div class="card">
-                <div class="card-img"></div>
-                <h3 class="card-title">Project Topic</h3>
-                <p class="card-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem aliquam ea
-                    voluptatem quae, tempore magni ullam, sunt iste amet, aspernatur ipsum ipsa consequatur aliquid?</p>
-            </div>
-            <div class="card">
-                <div class="card-img"></div>
-                <h3 class="card-title">Project Topic</h3>
-                <p class="card-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem aliquam ea
-                    voluptatem quae, tempore magni ullam, sunt iste amet, aspernatur ipsum ipsa consequatur aliquid?</p>
-            </div>
-            <div class="card">
-                <div class="card-img"></div>
-                <h3 class="card-title">Project Topic</h3>
-                <p class="card-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem aliquam ea
-                    voluptatem quae, tempore magni ullam, sunt iste amet, aspernatur ipsum ipsa consequatur aliquid?</p>
-            </div>
-        </section>
+        <hr>
         <section id="skills">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus placeat voluptate cupiditate
-                incidunt illum aliquam maiores quo ipsum illo corporis id ipsam possimus hic laboriosam pariatur rerum
-                blanditiis fugiat repellat veritatis, debitis iusto, in accusamus. Voluptatum dolorem, vero architecto
-                amet beatae odit iusto possimus, est rerum, illo quibusdam ipsum facere iure. Reiciendis aspernatur
-                cumque enim quam eaque aliquid impedit odio, autem saepe veniam sunt quaerat sapiente atque
-                reprehenderit porro minima inventore blanditiis optio velit, delectus est, eum nisi accusantium numquam?
-                Delectus quibusdam repudiandae suscipit? Ducimus facere fugiat, a veniam minus, repellendus quibusdam
-                cia vitae exercitationem, perspiciatis suscipit distinctio veritatis sequi
-                totam tempora modi deleniti aspernatur fuga, aliquam numquam harum possimus facilis dolorem. Repellat
-                aperiam laboriosam tempora fugit, veniam ducimus quisquam hic nostrum ullam praesentium, doloremque
-                voluptas earum? Enim laborum illo fugit nulla amet. Quas quidem laudantium ipsam quaerat perspiciatis
-                corrupti voluptatem ex esse veritatis, quis id atque earum placeat alias numquam quia? Qui, eum commodi
-                quisquam, quibusdam atque in nemo, praesentium asperiores maxime quo accusantium suscipit tempora et
-                cupiditate saepe veniam iusto ex. Blanditiis quaerat aliquam eius dolores non nam magni placeat earum
-                vitae nobis qui veritatis, laudantium debitis error consequatur voluptate! Quaerat eum ratione maiores
-                accusantium ex dolores at. Impedit inventore corporis dolor repudiandae possimus ex voluptas officiis
-                porro. Iste repudiandae asperiores nihil provident aperiam quis pariatur praesentium itaque temporibus
-                voluptas! Enim excepturi ea aspernatur reiciendis veniam laboriosam accusantium accusamus modi libero
-                tempore suscipit voluptatum quam voluptatibus est itaque culpa consequuntur perspiciatis eos, iusto
-                doloremque ipsum explicabo debitis animi rerum. Veniam, voluptate! A natus ad error est reiciendis
-                maxime saepe inventore soluta odio. Optio deleniti tenetur pariatur rerum. Dignissimos, esse obcaecati.
-                Consequuntur delectus commodi, numquam consequatur repellat quos nobis dolorum asperiores ea voluptate
-                cum soluta, atque, dicta esse eaque ducimus facilis assumenda illo!</p>
+            <h2>Skills</h2>
+            <div class="my-skills">
+                <div class="skill-card">
+                    <div class="skill-circle" style="--done:80%;">
+                        <div class="top-circle">
+                            <div class="percentage">80%</div>
+                        </div>
+                    </div>
+                    <div class="skill-name">
+                        C / C++
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-circle" style="--done:90%;">
+                        <div class="top-circle">
+                            <div class="percentage">90%</div>
+                        </div>
+                    </div>
+                    <div class="skill-name">
+                        HTML
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-circle" style="--done:70%;">
+                        <div class="top-circle">
+                            <div class="percentage">70%</div>
+                        </div>
+                    </div>
+                    <div class="skill-name">
+                        CSS
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-circle" style="--done:70%;">
+                        <div class="top-circle">
+                            <div class="percentage">70%</div>
+                        </div>
+                    </div>
+                    <div class="skill-name">
+                        JavaScript
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-circle" style="--done:60%;">
+                        <div class="top-circle">
+                            <div class="percentage">60%</div>
+                        </div>
+                    </div>
+                    <div class="skill-name">
+                        MongoDB
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-circle" style="--done:45%;">
+                        <div class="top-circle">
+                            <div class="percentage">45%</div>
+                        </div>
+                    </div>
+                    <div class="skill-name">
+                        NodeJS
+                    </div>
+                </div>
+            </div>
         </section>
-        <section id="contact">
+        <hr>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div id="projects-container">
+                <div class="card">
+                    <div class="card-img clock-img"></div>
+                    <h3 class="card-title">Clock</h3>
+                    <p class="card-description">Lorem ipsum, dolor sit amet consectetur adipis iste amet, aspernatur
+                        ipsum
+                        ipsa consequatur aliquid?</p>
+                </div>
+                <div class="card">
+                    <div class="card-img website-img"></div>
+                    <h3 class="card-title">Website</h3>
+                    <p class="card-description">Lorem ipsum, dolor sit amet consectetur adipis iste amet, aspernatur
+                        ipsum
+                        ipsa consequatur aliquid?</p>
+                </div>
+                <div class="card">
+                    <div class="card-img todolist-img"></div>
+                    <h3 class="card-title">Todo List</h3>
+                    <p class="card-description">Lorem ipsum, dolor sit amet consectetur adipis iste amet, aspernatur
+                        ipsum
+                        ipsa consequatur aliquid?</p>
+                </div>
+                <div class="card">
+                    <div class="card-img pokedex-img"></div>
+                    <h3 class="card-title">Pokedex</h3>
+                    <p class="card-description">Lorem ipsum, dolor sit amet consectetur adipis iste amet, aspernatur
+                        ipsum
+                        ipsa consequatur aliquid?</p>
+                </div>
+                <div class="card">
+                    <div class="card-img ttms-img"></div>
+                    <h3 class="card-title">TTMS</h3>
+                    <p class="card-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem aliquam ea
+                        voluptatem quae, tempore magni ullam, sunt iste amet, aspernatur ipsum ipsa consequatur aliquid?
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="card-img portfolio-img"></div>
+                    <h3 class="card-title">Portfolio</h3>
+                    <p class="card-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem aliquam ea
+                        voluptatem quae, tempore magni ullam, sunt iste amet, aspernatur ipsum ipsa consequatur aliquid?
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="card-img tosscoin-img"></div>
+                    <h3 class="card-title">Toss Coin</h3>
+                    <p class="card-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem aliquam ea
+                        voluptatem quae, tempore magni ullam, sunt iste amet, aspernatur ipsum ipsa consequatur aliquid?
+                    </p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="resume">
+            <div class="passport-img">
 
+            </div>
+            <div class="about-me">
+                <p>Hi! I am Prasoon Maurya. I am a student in AKG Engineering College and I am currently pursuing my B.Tech 4 yr with Information Technology.</p>
+                <br>
+                <p>jbwilndsvn vdjdsljk dvln Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Assumenda itaque magnam beatae maiores, inventore necessitatibus pariatur quos et officiis in ab
+                    nemo tempora repellat dolorem dicta? Optio qui laborum neque aspernatur recusandae fugit similique.
+                    Praesentium dicta doloremque nemo tempore dolor eos!</p>
+                <button id="download-resume">
+                    Download My Resume
+                </button>
+            </div>
+        </section>
+        <hr>
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-container">
+                <div id="contact-details">
+                    <div class="detail">
+                        <div class="contact-icon"><i class="fa-regular fa-user" style="color: #06bea8;"></i></div>
+                        <div class="information">
+                            <div class="head">Name</div>
+                            <div class="sub-title">Prasoon Maurya</div>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <div class="contact-icon"><i class="fa-solid fa-phone" style="color: #0dbeff;"></i></div>
+                        <div class="information">
+                            <div class="head">Phone No.</div>
+                            <div class="sub-title">+91 1234567890</div>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <div class="contact-icon"><i class="fa-regular fa-envelope" style="color: #ff002b;"></i></div>
+                        <div class="information">
+                            <div class="head">Email</div>
+                            <div class="sub-title">pmdjcndkshjb@gmail.com</div>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <div class="contact-icon"><i class="fa-solid fa-location-dot" style="color: #0a64ff;"></i></div>
+                        <div class="information">
+                            <div class="head">Address</div>
+                            <div class="sub-title">Lorem ipsum dolor sit, amet consectetur adipisicing.</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="social-links">
+                    <h3>Social Links</h3>
+                    <div>
+                        <a href="https://tfipost.in/wp-content/uploads/sites/2/2021/10/coming_soon_hindi_meaning-750x375.jpg"><i class="fa-solid fa-laptop-code" style="color: #f0bc00;"></i></a>
+                        <a href="https://tfipost.in/wp-content/uploads/sites/2/2021/10/coming_soon_hindi_meaning-750x375.jpg"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a>
+                        <a href="https://tfipost.in/wp-content/uploads/sites/2/2021/10/coming_soon_hindi_meaning-750x375.jpg"><i class="fa-brands fa-instagram" style="color: #fb00ff;"></i></a>
+                        <a href="https://tfipost.in/wp-content/uploads/sites/2/2021/10/coming_soon_hindi_meaning-750x375.jpg"><i class="fa-brands fa-twitter" style="color: #3dcfff;"></i></a>
+                        <a href="https://tfipost.in/wp-content/uploads/sites/2/2021/10/coming_soon_hindi_meaning-750x375.jpg"><i class="fa-brands fa-linkedin" style="color: #027cd9;"></i></a>
+                        <a href="https://tfipost.in/wp-content/uploads/sites/2/2021/10/coming_soon_hindi_meaning-750x375.jpg"><i class="fa-brands fa-medium"></i></a>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
+<hr>
+    <footer>
+        <p>
+            Created by <span class="dark-green">Prasoon Maurya</span> | 
+            <span class="far fa-copyright"></span>
+            <!-- &copy; -->
+            <span id="year" class="dark-green"></span> All rights reserved.
+        </p>
+    </footer>
 
-    <footer></footer>
     <script src="javascript.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['MERN Developer', 'Coder', 'Video Editor', 'Designer', 'Data Scientist', 'Hacker'],
+            // typeSpeed: 50,
+            typeSpeed: 100,
+            backSpeed: 60,
+            loop: true
+        });
+    </script>
 </body>
 
 </html>

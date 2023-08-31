@@ -11,6 +11,10 @@ let processScroll = () => {
 }
 document.addEventListener('scroll', processScroll);
 
+const currentYear = new Date().getFullYear();
+const year = document.getElementById('year');
+year.textContent = currentYear;
+
 
 // let showSearch = () =>{
 //   let sb =document.getElementById("searchbox")
